@@ -4,6 +4,19 @@
   width: 650px;
 }
 
-#greeting-container {
+#facts-container {
   margin-top: 20px;
 }
+
+.together img {
+  margin: 10px;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.together {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
