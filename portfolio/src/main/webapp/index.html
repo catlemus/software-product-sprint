@@ -12,10 +12,15 @@
     <div id="content">
       <h1>Catalina's Portfolio</h1>
       <img class ="avatar" src="images/myAvatar.jpg"/>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random fact about me:</p>
+      <p>Click here to get a greeting:</p>
+      <button onclick="showServletMess()">Message</button>
+      <div id="servlet-container"></div>
+        <p>
+            Click <a href="/hello">here</a> to see the server response directly.
+        </p>
+      <p>Click below to get a random fact about me:</p>
       <button onclick="addRandomFact()">Fun-Fact</button>
-      <div id="facts-container"></div>
+      <div id="facts-container"></div>      
       <div id ="About">
       <h2>About Me</h2>
       <p>
