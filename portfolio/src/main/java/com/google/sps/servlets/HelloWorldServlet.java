@@ -9,10 +9,20 @@ import javax.servlet.http.HttpServletResponse;
 /** Handles requests sent to the /hello URL. Try running a server and navigating to /hello! */
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
+    
 
-  @Override
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+    private int views = 0;
+
+    @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    views ++;
+
     response.setContentType("text/html;");
-    response.getWriter().println("<h1>Hello world!</h1>");
+    response.getWriter().println("<h1>Hello World!</h1>");
+    response.getWriter().println("<h3>This page has been checked out "+views+" times</h3>");
   }
 }

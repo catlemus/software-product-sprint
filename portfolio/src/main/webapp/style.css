@@ -1,8 +1,29 @@
+*{
+    background-color: #264653;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
 #content {
   margin-left: auto;
   margin-right: auto;
   width: 650px;
-  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#content h1{
+    color:#2a9d8f;
+}
+
+button{
+    padding: 16px 32px;
+    background-color: #264653; 
+    color: #2a9d8f; 
+    border: 2px solid #2a9d8f;
+}
+
+button:hover{
+    background-color: #2a9d8f;
+    color:#264653;
 }
 
 .avatar{
@@ -10,8 +31,27 @@
     height: 250px;
 }
 
+#About h2{
+    color:#e9c46a;
+}
+
+#About a{
+    color:#e9c46a;
+    text-decoration: underline;
+}
+
+#Work h2{
+    color:#f4a261;
+}
+
+#Work a{
+    color:#f4a261;
+    text-decoration: underline;
+}
+
 #gallery{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: strong;
 }
 
 #facts-container {
