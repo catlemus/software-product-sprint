@@ -15,10 +15,22 @@ function addRandomFact() {
   factContainer.innerText = fact;
 }
 
-async function showServletMess() {
-  const responseFromServer = await fetch('/hello');
-  const textFromResponse = await responseFromServer.text();
+//Fetch
+//const responseFromServer = await fetch('/hello');
+//const textFromResponse = await responseFromServer.text();
+//serveContainer.innerText = textFromResponse;
 
-  const serveContainer = document.getElementById('servlet-container');
-  serveContainer.innerText = textFromResponse;
+async function showServletMess() {
+
+  const responseFromServer = await fetch('/hello');
+  const facts = await responseFromServer.json();
+
+  const factContainer = document.getElementById('servlet-container');
+  factContainer.innerText = facts[0];
+
+  console.log(facts[0]);
+  console.log(facts[1]);
+  console.log(facts[2]);
+
 }
+
