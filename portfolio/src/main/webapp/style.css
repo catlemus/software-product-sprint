@@ -7,6 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 650px;
+  text-align: center;
   
 }
 
@@ -19,6 +20,7 @@ button{
     background-color: #264653; 
     color: #2a9d8f; 
     border: 2px solid #2a9d8f;
+    border-radius: 12px;
 }
 
 button:hover{
@@ -51,7 +53,7 @@ button:hover{
 
 #gallery{
   font-family: 'Raleway', sans-serif;
-  font-weight: strong;
+
 }
 
 #facts-container {
