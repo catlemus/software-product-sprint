@@ -51,6 +51,21 @@
           Click <a href="pictures.html">here</a> to check out a gallery of my pictures. See my hiking trips,
           dogs, and favorite places!
       </p>
+
+      <!--picture upload form-->
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <p>Upload one of your own favorite pictures!</p>
+            <input class = "inputI" type="file" name="image">
+            <br/>
+            <p>Tell me what it is:</p>
+            <textarea id = "mess" class = "inputI" name="message"></textarea>
+            <br/>
+            <input id = "submitI" class = "inputI" type="submit" />            
+                  
+        </form>
+        <p>
+            Click <a href="/list-images">here</a> to see the images other people uploaded.
+        </p>
       </div>
       
       <div id = "Work">
@@ -95,6 +110,7 @@
               We can talk about ANYTHING! Feel free to just reach out.
           </p>
 
+          <!--Contact form-->
            <form action ="/form-handler" method="POST">
                 <p>Enter your name:</p>
                 <input class = "input" name="name"/>
