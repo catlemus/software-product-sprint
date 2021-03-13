@@ -7,6 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 650px;
+  text-align: center;
   
 }
 
@@ -19,6 +20,7 @@ button{
     background-color: #264653; 
     color: #2a9d8f; 
     border: 2px solid #2a9d8f;
+    border-radius: 12px;
 }
 
 button:hover{
@@ -31,7 +33,7 @@ button:hover{
     height: 250px;
 }
 
-#About h2{
+#About h2, h3{
     color:#e9c46a;
 }
 
@@ -49,15 +51,18 @@ button:hover{
     text-decoration: underline;
 }
 
-#gallery{
-  font-family: 'Raleway', sans-serif;
-  font-weight: strong;
-}
-
 #facts-container {
   margin-top: 20px;
 }
 
+/*
+gallery images
+*/
+
+#gallery{
+  font-family: 'Raleway', sans-serif;
+
+}
 .together img {
   margin: 10px;
   max-height: 200px;
@@ -70,3 +75,34 @@ button:hover{
   justify-content: center;
 }
 
+/*
+contact section
+*/
+
+#contact h2{
+    color: #e76f51;
+}
+
+.input{
+    width: 80%;
+    border: 2px solid #e76f51; 
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding:5px;
+    outline: none;
+    height: 35px;
+}
+
+#message{
+    height: 60px;
+}
+
+#submitButton{
+    width: 20%;
+    border-radius: 10px;
+}
+
+#submitButton:hover{
+    color:#264653;
+    background-color: #e76f51;
+}

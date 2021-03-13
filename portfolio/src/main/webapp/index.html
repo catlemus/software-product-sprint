@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Catalina's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -12,15 +12,19 @@
     <div id="content">
       <h1>Catalina's Portfolio</h1>
       <img class ="avatar" src="images/myAvatar.jpg"/>
-      <p>Click here to get a greeting:</p>
+
+
+      <p>Click here to get a random message:</p>
       <button onclick="showServletMess()">Message</button>
       <div id="servlet-container"></div>
         <p>
             Click <a href="/hello">here</a> to see the server response directly.
         </p>
+
       <p>Click below to get a random fact about me:</p>
       <button onclick="addRandomFact()">Fun-Fact</button>
-      <div id="facts-container"></div>      
+      <div id="facts-container"></div>   
+
       <div id ="About">
       <h2>About Me</h2>
       <p>
@@ -40,7 +44,9 @@
         I also love art and this has motivated me with Computer Science since there are so
         many opportunities to do something creative and new.
       </p>
-
+      <h3>
+          Favorite Pictures
+      </h3>
       <p>
           Click <a href="pictures.html">here</a> to check out a gallery of my pictures. See my hiking trips,
           dogs, and favorite places!
@@ -81,6 +87,30 @@
               until solved.
           </li>
       </ul>
+      </div>
+      <div id="contact">
+          <h2>Contact Me</h2>
+
+          <p>
+              We can talk about ANYTHING! Feel free to just reach out.
+          </p>
+
+           <form action ="/form-handler" method="POST">
+                <p>Enter your name:</p>
+                <input class = "input" name="name"/>
+                <br/>
+                <p>Enter your email here:</p>
+                <input class = "input" name="email"/>
+                <br/>
+                <p>A fun fact:</p>
+                <textarea id = "message" class = "input" name="fun-fact">ex: Bungee jumping is on my bucket list</textarea>
+                <br/>
+                <p>Enter why you want to talk:</p>
+                <input class = "input" name="subject"/>
+                <br/>
+                <input id = "submitButton" class = "input" type="submit" />
+           </form>
+
       </div>
     </div>
   </body>
