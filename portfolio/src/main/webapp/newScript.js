@@ -14,3 +14,11 @@ function addRandomFact() {
   const factContainer = document.getElementById('facts-container');
   factContainer.innerText = fact;
 }
+
+async function showServletMess() {
+  const responseFromServer = await fetch('/hello');
+  const textFromResponse = await responseFromServer.text();
+
+  const serveContainer = document.getElementById('servlet-container');
+  serveContainer.innerText = textFromResponse;
+}
