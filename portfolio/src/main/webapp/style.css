@@ -76,6 +76,33 @@ gallery images
 }
 
 /*
+form in gallery
+*/
+
+.inputI{
+    width: 30%;
+    border: 2px solid #e9c46a; 
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding:5px;
+    outline: none;
+    height: 30px;
+}
+
+#mess{
+    height:40px;
+}
+
+#submitI{
+    width: 20%;
+    border-radius: 10px;
+}
+
+#submitI:hover{
+    color:#264653;
+    background-color: #e9c46a;
+}
+/*
 contact section
 */
 
