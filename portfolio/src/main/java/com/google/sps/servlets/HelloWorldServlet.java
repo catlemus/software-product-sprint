@@ -16,17 +16,12 @@ public class HelloWorldServlet extends HttpServlet {
 
     String[] factList = {"I like purple", "I have 4 dogs", "I love soccer"};
 
-    /**
-     *
-     */
     private static final long serialVersionUID = 1L;
   
 
     @Override
   public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
     
-    //response.setContentType("text/html;");
-    //response.getWriter().println("Hello World!");
 
     Gson gson = new Gson();
     String json = gson.toJson(factList);

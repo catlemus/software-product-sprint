@@ -15,7 +15,7 @@
 
 
       <p>Click here to get a random message:</p>
-      <button onclick="showServletMess()">Message</button>
+      <button onclick="showServletMessage()">Message</button>
       <div id="servlet-container"></div>
         <p>
             Click <a href="/hello">here</a> to see the server response directly.
@@ -55,12 +55,12 @@
       <!--picture upload form-->
         <form action="/upload" method="POST" enctype="multipart/form-data">
             <p>Upload one of your own favorite pictures!</p>
-            <input class = "inputI" type="file" name="image">
+            <input class="inputI" type="file" name="image">
             <br/>
             <p>Tell me what it is:</p>
-            <textarea id = "mess" class = "inputI" name="message"></textarea>
+            <textarea id="message" class="inputI" name="message"></textarea>
             <br/>
-            <input id = "submitI" class = "inputI" type="submit" />            
+            <input id="submitI" class="inputI" type="submit" />            
                   
         </form>
         <p>
@@ -113,18 +113,18 @@
           <!--Contact form-->
            <form action ="/form-handler" method="POST">
                 <p>Enter your name:</p>
-                <input class = "input" name="name"/>
+                <input class="input" name="name"/>
                 <br/>
                 <p>Enter your email here:</p>
-                <input class = "input" name="email"/>
+                <input class="input" name="email"/>
                 <br/>
                 <p>A fun fact:</p>
-                <textarea id = "message" class = "input" name="fun-fact">ex: Bungee jumping is on my bucket list</textarea>
+                <textarea id="message" class="input" name="fun-fact">ex: Bungee jumping is on my bucket list</textarea>
                 <br/>
                 <p>Enter why you want to talk:</p>
-                <input class = "input" name="subject"/>
+                <input class="input" name="subject"/>
                 <br/>
-                <input id = "submitButton" class = "input" type="submit" />
+                <input id="submitButton" class="input" type="submit" />
            </form>
 
       </div>

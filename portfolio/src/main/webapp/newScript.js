@@ -16,11 +16,8 @@ function addRandomFact() {
 }
 
 //Fetch
-//const responseFromServer = await fetch('/hello');
-//const textFromResponse = await responseFromServer.text();
-//serveContainer.innerText = textFromResponse;
 
-async function showServletMess() {
+async function showServletMessage() {
 
   const responseFromServer = await fetch('/hello');
   const facts = await responseFromServer.json();

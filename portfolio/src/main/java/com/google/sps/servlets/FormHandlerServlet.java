@@ -9,9 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/form-handler")
 public class FormHandlerServlet extends HttpServlet {
 
-    /**
-     *
-     */
+
     private static final long serialVersionUID = 6734233536872851287L;
 
     @Override
