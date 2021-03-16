@@ -79,7 +79,7 @@ gallery images
 form in gallery
 */
 
-.inputI{
+.inputImage{
     width: 30%;
     border: 2px solid #e9c46a; 
     font-size: 14px;
@@ -89,11 +89,11 @@ form in gallery
     height: 30px;
 }
 
-#mess{
+#message{
     height:40px;
 }
 
-#submitI{
+#submitImage{
     width: 20%;
     border-radius: 10px;
 }

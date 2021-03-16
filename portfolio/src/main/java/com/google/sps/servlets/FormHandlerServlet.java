@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 public class FormHandlerServlet extends HttpServlet {
 
 
-    private static final long serialVersionUID = 6734233536872851287L;
+  private static final long serialVersionUID = 6734233536872851287L;
 
-    @Override
+  @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
     // Get the value entered in the form.

@@ -24,9 +24,9 @@ import javax.servlet.http.Part;
 @MultipartConfig
 public class ImageFormHandlerServlet extends HttpServlet {
 
-    private static final long serialVersionUID = 9069792321854845875L;
+  private static final long serialVersionUID = 9069792321854845875L;
 
-    @Override
+  @Override
   public void doPost(HttpServletRequest request, HttpServletResponse response)
       throws ServletException, IOException {
 

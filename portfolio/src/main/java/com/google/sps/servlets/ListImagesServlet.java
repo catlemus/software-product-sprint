@@ -15,9 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/list-images")
 public class ListImagesServlet extends HttpServlet {
 
-    private static final long serialVersionUID = -7655683463700031557L;
+  private static final long serialVersionUID = -7655683463700031557L;
 
-    @Override
+  @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     // List all of the uploaded files.
     String projectId = "clemus-sps-spring21";

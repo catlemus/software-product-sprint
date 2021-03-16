@@ -14,12 +14,12 @@ import com.google.gson.Gson;
 @WebServlet("/hello")
 public class HelloWorldServlet extends HttpServlet {
 
-    String[] factList = {"I like purple", "I have 4 dogs", "I love soccer"};
+  String[] factList = {"I like purple", "I have 4 dogs", "I love soccer"};
 
-    private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 1L;
   
 
-    @Override
+  @Override
   public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
     
 
